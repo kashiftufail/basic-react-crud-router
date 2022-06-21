@@ -30,6 +30,7 @@ import NoPage from "./pages/NoPage";
 
 export default function AppNav() {
   return (
+    <div className="container">
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -40,6 +41,7 @@ export default function AppNav() {
         </Route>
       </Routes>
     </BrowserRouter>
+    </div>
   );
 }
 
