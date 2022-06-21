@@ -15,6 +15,9 @@ const Layout = () => {
             <Link to="/contact">Contact</Link>
           </li>
           <li>
+            <Link to="/fetchapidata">Fetch API Data </Link>
+          </li>
+          <li>
             <Link to="/nopage">NoPage</Link>
           </li>
         </ul>
